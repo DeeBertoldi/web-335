@@ -1,0 +1,28 @@
+{
+  "customers": [
+    {
+      "_id": "customer01",
+      "firstName": "Maria",
+      "lastName": "Silva",
+      "burgerIds": ["b01", "b02"]
+    },
+    {
+      "_id": "customer02",
+      "firstName": "John",
+      "lastName": "Doe",
+      "burgerIds": ["b01"]
+    }
+  ],
+  "burgers": [
+    {
+      "_id": "b01",
+      "burgerName": "Cheeseburger",
+      "price": 9.95
+    },
+    {
+      "_id": "b02",
+      "burgerName": "Veggie Burger",
+      "price": 10.95
+    }
+  ]
+}
