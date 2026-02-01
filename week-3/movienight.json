@@ -1,0 +1,46 @@
+{
+  "viewers": [
+    {
+      "_id": "viewer01",
+      "firstName": "Daniella",
+      "lastName": "Bertoldi"
+    },
+    {
+      "_id": "viewer02",
+      "firstName": "Cat",
+      "lastName": "Martino"
+    }
+  ],
+  "movies": [
+    {
+      "_id": "movie01",
+      "movieName": "Blade Runner",
+      "genre": "Science Fiction"
+    },
+    {
+      "_id": "movie02",
+      "movieName": "Arrival",
+      "genre": "Science Fiction"
+    }
+  ],
+  "ratings": [
+    {
+      "_id": "rating01",
+      "ratingScore": 9,
+      "viewerId": "viewer01",
+      "movieId": "movie01"
+    },
+    {
+      "_id": "rating02",
+      "ratingScore": 10,
+      "viewerId": "viewer01",
+      "movieId": "movie02"
+    },
+    {
+      "_id": "rating03",
+      "ratingScore": 8,
+      "viewerId": "viewer02",
+      "movieId": "movie01"
+    }
+  ]
+}
