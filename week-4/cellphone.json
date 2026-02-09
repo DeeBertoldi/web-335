@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "_id": "user1",
+      "firstName": "Daniella",
+      "lastName": "Bertoldi"
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "charger1",
+      "chargerType": "USB-C",
+      "voltage": 20
+    }
+  ],
+  "devices": [
+    {
+      "_id": "device1",
+      "deviceName": "iPhone 14",
+      "deviceType": "Phone",
+      "user_id": "user01",
+      "charger_id": "charger01"
+    },
+    {
+      "_id": "device2",
+      "deviceName": "iPad Pro",
+      "deviceType": "Tablet",
+      "user_id": "user01",
+      "charger_id": "charger01"
+    }
+  ]
+}
